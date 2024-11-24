@@ -14,7 +14,7 @@ while (guess_count+2) > 0 :
                 for idx,char in enumerate(name):
                     if char==guess_char :
                         guess_list[idx]=guess_char
-                        print(f"perfect {" ".join(guess_list)}")#ویرگول لیست را حذف میکند
+                        print(f"perfect {" ".join(guess_list)}")
 
                         if not "_" in guess_list:
                             print("won")
